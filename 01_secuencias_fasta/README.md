@@ -1,4 +1,4 @@
-# 01 — Secuencias FASTA
+# 01 Secuencias FASTA
 
 **Tema:** Manejo de secuencias biológicas  
 **Herramientas:** Python 3, matplotlib
