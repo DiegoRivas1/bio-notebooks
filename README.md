@@ -5,16 +5,16 @@ Cada carpeta numerada es un tema: teoría explicada paso a paso + código ejecut
 
 ## Contenido
 
-| # | Tema | Secuencias | Estado |
-|---|------|-----------|--------|
-| 01 | [Secuencias FASTA](01_secuencias_fasta/notebook.ipynb) | HBB, Mitocondria, E. coli, Genes humanos | ✅ Completo |
+| # | Tema                                                                    | Secuencias | Estado |
+|---|-------------------------------------------------------------------------|-----------|--------|
+| 01 | [Secuencias FASTA](01_secuencias_fasta/notebook.ipynb)                  | HBB, Mitocondria, E. coli, Genes humanos | ✅ Completo |
 | 02 | [Alineamiento de Secuencias](02_alineamiento_secuencias/notebook.ipynb) | BRCA1 humano vs ratón | ✅ Completo |
-| 03 | [BLAST y Búsqueda por Similitud](03_blast/notebook.ipynb) | BRCA1 humano | ✅ Completo |
-| 04 | Filogenética y Árboles Evolutivos | — | 🔜 Próximamente |
-| 05 | Análisis de Expresión Génica | — | 🔜 |
-| 06 | Estructura de Proteínas | — | 🔜 |
-| 07 | Genómica Comparativa | — | 🔜 |
-| 08 | Ensamblaje de Genomas | — | 🔜 |
+| 03 | [BLAST y Búsqueda por Similitud](03_BLAST/notebook.ipynb)               | BRCA1 humano | ✅ Completo |
+| 04 | Filogenética y Árboles Evolutivos                                       | — | 🔜 Próximamente |
+| 05 | Análisis de Expresión Génica                                            | — | 🔜 |
+| 06 | Estructura de Proteínas                                                 | — | 🔜 |
+| 07 | Genómica Comparativa                                                    | — | 🔜 |
+| 08 | Ensamblaje de Genomas                                                   | — | 🔜 |
 
 ## Requisitos
 
