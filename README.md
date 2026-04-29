@@ -7,16 +7,19 @@ Cada carpeta numerada es un tema: teoría explicada paso a paso + código ejecut
 
 | # | Tema | Secuencias | Estado |
 |---|------|-----------|--------|
-| 01 | [Secuencias FASTA](01_secuencias_fasta/notebook.ipynb) | HBB, Mitocondria, E. coli | ✅ Completo |
-| 02 | Alineamiento de secuencias (Needleman-Wunsch, Smith-Waterman) | — | 🔜 Próximamente |
-| 03 | BLAST y búsqueda por similitud | — | 🔜 |
-| 04 | Filogenética y árboles evolutivos | — | 🔜 |
-| 05 | Análisis de expresión génica | — | 🔜 |
+| 01 | [Secuencias FASTA](01_secuencias_fasta/notebook.ipynb) | HBB, Mitocondria, E. coli, Genes humanos | ✅ Completo |
+| 02 | [Alineamiento de Secuencias](02_alineamiento_secuencias/notebook.ipynb) | BRCA1 humano vs ratón | ✅ Completo |
+| 03 | [BLAST y Búsqueda por Similitud](03_blast/notebook.ipynb) | BRCA1 humano | ✅ Completo |
+| 04 | Filogenética y Árboles Evolutivos | — | 🔜 Próximamente |
+| 05 | Análisis de Expresión Génica | — | 🔜 |
+| 06 | Estructura de Proteínas | — | 🔜 |
+| 07 | Genómica Comparativa | — | 🔜 |
+| 08 | Ensamblaje de Genomas | — | 🔜 |
 
 ## Requisitos
 
 ```bash
-pip install jupyter matplotlib biopython pandas numpy
+pip install -r requirements.txt
 ```
 
 ## Cómo usar
@@ -36,11 +39,25 @@ bio-notebooks/
 ├── README.md
 ├── requirements.txt
 ├── 01_secuencias_fasta/
-│   ├── notebook.ipynb      ← teoría + código + visualizaciones
-│   ├── data/               ← archivos FASTA de NCBI
-│   └── README.md
-├── 02_alineamiento/
-│   └── ...
+│   ├── notebook.ipynb
+│   ├── README.md
+│   └── data/
+│       ├── hbb_small.fasta
+│       ├── mito_medium.fasta
+│       ├── ecoli_large.fasta
+│       └── genes_humanos_multi.fasta
+├── 02_alineamiento_secuencias/
+│   ├── notebook.ipynb
+│   ├── README.md
+│   └── data/
+│       ├── U14680.1.fasta
+│       └── NM_009764.fasta
+├── 03_blast/
+│   ├── notebook.ipynb
+│   ├── README.md
+│   └── data/
+│       ├── U14680.1.fasta
+│       └── blast_result.xml  (generado automáticamente)
 └── ...
 ```
 
@@ -49,3 +66,4 @@ bio-notebooks/
 - [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nucleotide/)
 - [Ensembl](https://www.ensembl.org/)
 - [UniProt](https://www.uniprot.org/)
+- [European Nucleotide Archive](https://www.ebi.ac.uk/ena/)
