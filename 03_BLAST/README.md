@@ -1,4 +1,4 @@
-# 03 — BLAST y Búsqueda por Similitud
+# 03 BLAST y Búsqueda por Similitud
 
 **Tema:** Búsqueda de secuencias similares en bases de datos  
 **Herramientas:** Python 3, Biopython, matplotlib, pandas
