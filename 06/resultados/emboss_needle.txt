@@ -1,0 +1,572 @@
+########################################
+# Program: needle
+# Rundate: Fri 29 May 2026 02:02:19
+# Commandline: needle
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/189766/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/189766/.bsequence
+#    -gapopen 2
+#    -gapextend 2
+#    -endweight
+#    -endopen 2
+#    -endextend 2
+#    -brief
+#    -outfile outfile
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NM_000518.5
+# 2: NM_009764.3
+# Matrix: EDNAFULL
+# Gap_penalty: 2.0
+# Extend_penalty: 2.0
+#
+# Length: 6648
+# Identity:     628/6648 ( 9.4%)
+# Similarity:   628/6648 ( 9.4%)
+# Gaps:        6020/6648 (90.6%)
+# Score: -8900.0
+#
+#
+#=======================================
+
+NM_000518.5        1 ------A----C-A----T-----------------TT------GC----      8
+                           |    | |    |                 ||      ||
+NM_009764.3        1 GTTCCGAAAGGCTAGCGCTAGGCGCCAAGCGGCCGGTTTCCTTGGCGACG     50
+
+NM_000518.5        9 -------------TT---------------------CTG-----------     13
+                                  ||                     |||
+NM_009764.3       51 GAGAGCGCGGGAATTTTAGATAGATTGTAATTGCGGCTGCGCGGCCGCTG    100
+
+NM_000518.5       14 -------A--CA-------CA--AC------TG----T-----GT--TC-     27
+                            |  ||       ||  ||      ||    |     ||  ||
+NM_009764.3      101 CCCGTGCAGCCAGAGGATCCAGCACCTCTCTTGGGGCTTCTCCGTCCTCG    150
+
+NM_000518.5       28 ------------AC---T------------AG-------C-----AAC--     36
+                                 ||   |            ||       |     |||
+NM_009764.3      151 GCGCTTGGAAGTACGGATCTTTTTTCTCGGAGAAAAGTTCACTGGAACTG    200
+
+NM_000518.5       37 ----------------CT------CAAA--C-AG----ACA------C--     49
+                                     ||      ||||  | ||    |||      |
+NM_009764.3      201 GAAGAAATGGATTTATCTGCCGTCCAAATTCAAGAAGTACAAAATGTCCT    250
+
+NM_000518.5       50 -CATG----G-------T----G-----C--ATCTG------ACT-----     65
+                      ||||    |       |    |     |  |||||      |||
+NM_009764.3      251 TCATGCTATGCAGAAAATCTTAGAGTGTCCGATCTGTTTGGAACTGATCA    300
+
+NM_000518.5       66 -----CCTG---------AG---GA-----------G-AA-----GT---     78
+                          ||||         ||   ||           | ||     ||
+NM_009764.3      301 AAGAACCTGTTTCCACAAAGTGTGACCACATATTTTGCAAATTTTGTATG    350
+
+NM_000518.5       79 CTG---C--C-------G-----------TT-AC--TG-C----------     91
+                     |||   |  |       |           || ||  || |
+NM_009764.3      351 CTGAAACTTCTTAACCAGAAGAAAGGGCCTTCACAATGTCCTTTGTGTAA    400
+
+NM_000518.5       92 ---------------------CCT---------------GT---G---G-     98
+                                          |||               ||   |   |
+NM_009764.3      401 GAATGAGATAACCAAAAGGAGCCTACAGGGAAGCACAAGGTTTAGTCAGC    450
+
+NM_000518.5       99 --G-------GC-----A-A-----GG-------TGA-------ACG---    111
+                       |       ||     | |     ||       |||       |||
+NM_009764.3      451 TTGCTGAAGAGCTGCTGAGAATAATGGCTGCTTTTGAGCTTGACACGGGA    500
+
+NM_000518.5      112 -TG--G-------ATG-----------------AAG-----------TTG    123
+                      ||  |       |||                 |||           |||
+NM_009764.3      501 ATGCAGCTTACAAATGGTTTTAGTTTTTCAAAAAAGAGAAATAATTCTTG    550
+
+NM_000518.5      124 -G------TG-----------GT-G-------AG-GC-----C--C----    135
+                      |      ||           || |       || ||     |  |
+NM_009764.3      551 TGAGCGTTTGAATGAGGAGGCGTCGATCATCCAGAGCGTGGGCTACCGGA    600
+
+NM_000518.5      136 ----TG---G--G-------CAGG-C-----------TGC-----TG--G    150
+                         ||   |  |       |||| |           |||     ||  |
+NM_009764.3      601 ACCGTGTCAGAAGGCTTCCCCAGGTCGAACCTGGAAATGCCACCTTGAAG    650
+
+NM_000518.5      151 -------T-GGT------CT-----ACC-------C-T----T--G----    163
+                            | |||      ||     |||       | |    |  |
+NM_009764.3      651 GACAGCCTAGGTGTCCAGCTGTCTAACCTTGGAATCGTGAGATCAGTGAA    700
+
+NM_000518.5      164 ------------GACCCA-----G--AG------GT-T-C-TT----T-G    180
+                                 ||||||     |  ||      || | | ||    | |
+NM_009764.3      701 GAAAAACAGGCAGACCCAACCTCGAAAGAAATCTGTCTACATTGAACTAG    750
+
+NM_000518.5      181 A----G--TC--CT----------T---T--G---GG-GAT--C--TGT-    198
+                     |    |  ||  ||          |   |  |   || |||  |  |||
+NM_009764.3      751 ACTCTGATTCTTCTGAAGAGACAGTAACTAAGCCAGGTGATTGCAGTGTG    800
+
+NM_000518.5      199 -----CCA--------------------CTC------CT---GAT-----    209
+                          |||                    |||      ||   |||
+NM_009764.3      801 AGAGACCAGGAATTGTTACAGACCGCCCCTCAAGAAGCTGGAGATGAAGG    850
+
+NM_000518.5      210 ---GCTG---T-T--A--------TG---G-G------C-----------    221
+                        ||||   | |  |        ||   | |      |
+NM_009764.3      851 CAAGCTGCACTCTGCAGAAGAGGCTGCTTGTGAGTTTTCTGAGGGCATAA    900
+
+NM_000518.5      222 --AAC------C--C-T-AA-G--GTGA--A-------------G-G---    237
+                       |||      |  | | || |  ||||  |             | |
+NM_009764.3      901 GAAACATTGAACATCATCAATGCAGTGATGATTTAAACCCTACTGAGAAT    950
+
+NM_000518.5      238 C-T-CA--T----GGCA---AGAAA---GT--G-------C----TC---    257
+                     | | ||  |    ||||   |||||   ||  |       |    ||
+NM_009764.3      951 CATGCAACTGAAAGGCATCCAGAAAAATGTCAGAGTATTTCTATTTCAAA   1000
+
+NM_000518.5      258 -G-GT-------GCC-T-T--------T----A-G---------------    268
+                      | ||       ||| | |        |    | |
+NM_009764.3     1001 TGTGTGTGTGGAGCCATGTGGCACAGATGCTCATGCCAGCTCATTACAGC   1050
+
+NM_000518.5      269 -TGA--------------TG------G----C------------------    275
+                      |||              ||      |    |
+NM_009764.3     1051 CTGAGACCAGCAGTTTATTGCTCATTGAAGACAGAATGAATGCAGAAAAG   1100
+
+NM_000518.5      276 -CTG------G-----------------CT--CA---C------C-----    285
+                      |||      |                 ||  ||   |      |
+NM_009764.3     1101 GCTGAATTCTGTAATAAAAGCAAACAGCCTGGCATAGCAGTGAGCCAGCA   1150
+
+NM_000518.5      286 -------TGG---------------AC----AAC--C-------T---CA    297
+                            |||               ||    |||  |       |   ||
+NM_009764.3     1151 GAGCAGATGGGCTGCAAGTAAAGGAACATGTAACGACAGGCAGGTTCCCA   1200
+
+NM_000518.5      298 --A--GGG------------C---AC-CT---T---T--G----------    309
+                       |  |||            |   || ||   |   |  |
+NM_009764.3     1201 GCACTGGGGAAAAGGTAGGTCCAAACGCTGACTCCCTTAGTGATAGAGAG   1250
+
+NM_000518.5      310 -------C-CA----CA-----------CTGAG--T----GAGCT-----    325
+                            | ||    ||           |||||  |    |||||
+NM_009764.3     1251 AAGTGGACTCACCCGCAAAGTCTGTGCCCTGAGAATTCTGGAGCTACCAC   1300
+
+NM_000518.5      326 -G---------------CACT----------GT---GA------------    334
+                      |               ||||          ||   ||
+NM_009764.3     1301 CGATGTTCCTTGGATAACACTAAATAGCAGCGTTCAGAAAGTTAATGAGT   1350
+
+NM_000518.5      335 -------CA-A---G---------------CTG-CA-CG--T------GG    348
+                            || |   |               ||| || ||  |      ||
+NM_009764.3     1351 GGTTTTCCAGAACTGGTGAAATGTTAACTTCTGACAGCGCATCTGCCAGG   1400
+
+NM_000518.5      349 A--------TC-----CTG-AG-A-------------A-----C------    359
+                     |        ||     ||| || |             |     |
+NM_009764.3     1401 AGGCACGAGTCAAATGCTGAAGCAGCTGTTGTGTTGGAAGTTTCAAACGA   1450
+
+NM_000518.5      360 ------------------TTC----AGG--------CT------CC----    369
+                                       |||    |||        ||      ||
+NM_009764.3     1451 AGTGGATGGGGGTTTTAGTTCTTCAAGGAAAACAGACTTAGTAACCCCCG   1500
+
+NM_000518.5      370 ------------------TG-G-----G---------C-------AAC--    377
+                                       || |     |         |       |||
+NM_009764.3     1501 ACCCCCATCATACTTTAATGTGTAAAAGTGGAAGAGACTTCTCCAAACCA   1550
+
+NM_000518.5      378 GT-G----------C--TG-----------G-----T-CT----G-----    388
+                     || |          |  ||           |     | ||    |
+NM_009764.3     1551 GTAGAGGATAATATCAGTGATAAAATATTTGGGAAATCCTATCAGAGAAA   1600
+
+NM_000518.5      389 -----------------TG-----TG---CT---------GGC-C-----    398
+                                      ||     ||   ||         ||| |
+NM_009764.3     1601 GGGAAGCCGCCCTCACCTGAACCATGTGACTGAAATTATAGGCACATTTA   1650
+
+NM_000518.5      399 ---C----------AT--CA-----------CTT------T---------    407
+                        |          ||  ||           |||      |
+NM_009764.3     1651 TTACAGAACCACAGATAACACAAGAGCAGCCCTTCACAAATAAATTAAAA   1700
+
+NM_000518.5      408 -G---G-------CA-------AA---GA--A-TTCA-C-------C---    422
+                      |   |       ||       ||   ||  | |||| |       |
+NM_009764.3     1701 CGTAAGAGAAGTACATCCCTTCAACCTGAGGACTTCATCAAGAAAGCAGA   1750
+
+NM_000518.5      423 --C--CA------C-----------------------CAG-----TG-C-    432
+                       |  ||      |                       |||     || |
+NM_009764.3     1751 TTCAGCAGGTGTTCAAAGGACTCCTGACAACATAAATCAGGGAACTGACC   1800
+
+NM_000518.5      433 -A--G--GC----T--GC---C--T-A-T-----CAG-AA-----AG---    450
+                      |  |  ||    |  ||   |  | | |     ||| ||     ||
+NM_009764.3     1801 TAATGGAGCCAAATGAGCAAGCAGTGAGTACTACCAGTAACTGTCAGGAG   1850
+
+NM_000518.5      451 -------T----GGT-G---------G----------------------C    457
+                            |    ||| |         |                      |
+NM_009764.3     1851 AACAAAATAGCAGGTAGTAATCTCCAGAAAGAGAAAAGCGCTCATCCAAC   1900
+
+NM_000518.5      458 TG-------G-----------TG-T------G--G---------CTA-A-    469
+                     ||       |           || |      |  |         ||| |
+NM_009764.3     1901 TGAATCATTGAGAAAGGAACCTGCTTCCACAGCAGGAGCCAAATCTATAA   1950
+
+NM_000518.5      470 -------TG-------------------------C--CC----T------    475
+                            ||                         |  ||    |
+NM_009764.3     1951 GCAACAGTGTAAGTGATTTGGAGGTAGAATTAAACGTCCACAGTTCAAAA   2000
+
+NM_000518.5      476 ----------------GGC------------C--C-A-CA----------    483
+                                     |||            |  | | ||
+NM_009764.3     2001 GCACCTAAGAAAAATAGGCTGAGGAGGAAGTCTTCTATCAGGTGTGCTCT   2050
+
+NM_000518.5      484 ---A---G------T-A-T-------CA-------CTA---------AGC    496
+                        |   |      | | |       ||       |||         |||
+NM_009764.3     2051 TCCACTTGAACCAATCAGTAGAAATCCAAGCCCACCTACTTGTGCTGAGC   2100
+
+NM_000518.5      497 -TC------------------GC--T--------------------TT--    503
+                      ||                  ||  |                    ||
+NM_009764.3     2101 TTCAAATCGATAGTTGTGGTAGCAGTGAAGAAACAAAGAAAAACCATTCC   2150
+
+NM_000518.5      504 ---------------------CTT-G-----CT---------G-------    510
+                                          ||| |     ||         |
+NM_009764.3     2151 AACCAACAGCCAGCCGGGCACCTTAGAGAGCCTCAACTCATCGAAGACAC   2200
+
+NM_000518.5      511 T---C---CA----AT--------------------T-------T-----    518
+                     |   |   ||    ||                    |       |
+NM_009764.3     2201 TGAACCTGCAGCGGATGCCAAGAAGAACGAGCCAAATGAACACATAAGGA   2250
+
+NM_000518.5      519 -----C-T-------AT--T-----A-AAG-G---TT------C----CT    533
+                          | |       ||  |     | ||| |   ||      |    ||
+NM_009764.3     2251 AGAGACGTGCCAGCGATGCTTTCCCAGAAGAGAAATTAATGAACAAAGCT   2300
+
+NM_000518.5      534 --T------------TGTTC----CCTA-A---------------GTC--    547
+                       |            |||||    |||| |               |||
+NM_009764.3     2301 GGTTTATTAACTAGCTGTTCAAGTCCTAGAAAATCTCAAGGGCCTGTCAA   2350
+
+NM_000518.5      548 ----------------------------CAACT----AC--------T--    555
+                                                 |||||    ||        |
+NM_009764.3     2351 TCCCAGCCCTCAGAGAACAGGAACAGAGCAACTTGAAACACGCCAAATGT   2400
+
+NM_000518.5      556 ---A-----------AACT-GGGG---G------A--------------T    567
+                        |           |||| ||||   |      |              |
+NM_009764.3     2401 CTGACAGTGCCAAAGAACTCGGGGATCGGGTCCTAGGAGGAGAGCCCAGT   2450
+
+NM_000518.5      568 ---A-------T------T---A--------------------TG--A--    574
+                        |       |      |   |                    ||  |
+NM_009764.3     2451 GGCAAAACCACTGACCGATCTGAGGAGAGCACCAGCGTATCCTTGGTATC   2500
+
+NM_000518.5      575 --A----G-----G-------G--C-----CT---T----GA-G--CA--    587
+                       |    |     |       |  |     ||   |    || |  ||
+NM_009764.3     2501 TGACACTGACTACGACACTCAGAACAGTGTCTCAGTCCTGGACGCTCACA   2550
+
+NM_000518.5      588 ---TC---T-----------GGAT----TC--TG-----C-C------TA    602
+                        ||   |           ||||    ||  ||     | |      ||
+NM_009764.3     2551 CTGTCAGATATGCAAGAACAGGATCCGCTCAGTGTATGACTCAGTTTGTA   2600
+
+NM_000518.5      603 --A-------------------T-----A-------AA-AA-------A-    610
+                       |                   |     |       || ||       |
+NM_009764.3     2601 GCAAGCGAAAACCCCAAGGAACTCGTCCATGGCTCTAACAATGCTGGGAG   2650
+
+NM_000518.5      611 ---CA-------T-T----------T--A---------TT----T---TC    621
+                        ||       | |          |  |         ||    |   ||
+NM_009764.3     2651 TGGCACAGAGGGTCTCAAGCCCCCCTTGAGACACGCGCTTAACCTCAGTC   2700
+
+NM_000518.5      622 A--------T-----TG-----CA--------------------------    627
+                     |        |     ||     ||
+NM_009764.3     2701 AGGAGAAAGTAGAAATGGAAGACAGTGAACTTGATACTCAGTATTTGCAG   2750
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     2751 AATACATTTCAAGTTTCAAAGCGTCAGTCATTTGCTTTATTTTCAAAACC   2800
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     2801 TAGAAGTCCCCAAAAGGACTGTGCTCACTCTGTGCCCTCAAAGGAACTGA   2850
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     2851 GTCCAAAGGTGACAGCTAAAGGTAAACAAAAAGAACGTCAGGGACAGGAA   2900
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     2901 GAATTTGAAATCAGTCACGTACAAGCAGTTGCGGCCACAGTGGGCTTACC   2950
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     2951 TGTGCCCTGTCAAGAAGGTAAGCTAGCTGCTGATACAATGTGTGATAGAG   3000
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3001 GTTGTAGGCTTTGTCCATCATCTCATTACAGAAGCGGGGAGAATGGACTC   3050
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3051 AGCGCCACAGGTAAATCAGGAATTTCACAAAACTCACATTTTAAACAATC   3100
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3101 AGTTTCTCCCATCAGGTCATCTATAAAAACTGACAATAGGAAACCTCTGA   3150
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3151 CAGAGGGACGATTTGAGAGACATACATCATCAACTGAGATGGCGGTGGGA   3200
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3201 AATGAGAACATTCTTCAGAGTACAGTGCACACAGTTAGCCTGAATAACAG   3250
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3251 AGGAAATGCTTGTCAAGAAGCCGGCTCGGGCAGTATTCATGAAGTATGTT   3300
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3301 CCACTGGTGACTCCTTCCCAGGACAACTAGGTAGAAACAGAGGGCCTAAG   3350
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3351 GTGAACACTGTGCCTCCATTAGATAGTATGCAGCCTGGTGTCTGTCAGCA   3400
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3401 AAGTGTTCCTGTAAGTGATAAGTATCTTGAAATAAAAAAGCAGGAGGGTG   3450
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3451 AGGCTGTCTGTGCAGACTTCTCTCCATGTCTATTCTCAGACCATCTTGAG   3500
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3501 CAATCTATGAGTGGTAAGGTTTTTCAGGTTTGCTCTGAGACACCTGATGA   3550
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3551 CCTGCTGGATGATGTTGAAATACAGGGACATACTAGCTTTGGTGAAGGTG   3600
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3601 ACATAATGGAGAGATCTGCTGTCTTTAACGGAAGCATCCTGAGAAGGGAG   3650
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3651 TCCAGTAGGAGCCCTAGTCCTGTAACCCATGCATCGAAGTCTCAGAGTCT   3700
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3701 CCACAGAGCGTCTAGGAAATTAGAATCGTCAGAAGAGAGCGACTCCACTG   3750
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3751 AGGATGAAGATCTTCCCTGCTTCCAACACTTACTGAGCAGAATAAGCAAC   3800
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3801 ACACCTGAGCTTACCAGATGCAGCAGTGCTGTGACACAGCGTATGCCAGA   3850
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3851 GAAAGCGGAGGGGACCCAAGCACCATGGAAGGGTAGCAGCAGTGACTGCA   3900
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3901 ATAATGAGGTGATCATGATAGAGGCATCTCAGGAGCATCAGTTTAGTGAG   3950
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     3951 GATCCAAGATGCTCTGGCAGCATGTTCTCTTCACAGCACAGTGCTGCCCA   4000
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4001 AGGGTCAACTGCAAATGCAAACTCCCAGGATTCCAATTTTATTCCACCTT   4050
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4051 CCAAACAGAGGAGTCACCAGTGTGGGAATGAGGAAGCTTTCCTAAGTGAC   4100
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4101 AAGGAATTGATTTCAGATAACGAGGAAATGGCAACTTGCCTAGAAGAGGA   4150
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4151 TAATGACCAAGAAGAGGATAGTATAATCCCAGATTCAGAGGCATCCGGAT   4200
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4201 ACGAGAGTGAAACAAACCTTTCTGAAGACTGCTCGCAGAGTGATATTTTA   4250
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4251 ACCACTCAGCAGCGGGCGACCATGAAGTATAACCTGATAAAGCTGCAGCA   4300
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4301 GGAAATGGCTCACCTGGAAGCTGTGCTGGAGCAGCGTGGGAACCAGCCTT   4350
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4351 CTGGCCACTCCCCTTCCCTCCTAGCGGACCCTTGTGCCCTGGAAGACCTG   4400
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4401 CCAGATCTGGAACCAAACATGTCAGGAGCAGCAATTTTAACTTCAAAGAA   4450
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4451 CATTAATGAGAATCCTGTAAGCCAAAATTTGAAGAGCGCTTGTGATGACA   4500
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4501 AATTCCAACTACAACATCTGGAGGGTCCCACCAGTGGAGATGACGAGTCA   4550
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4551 GGGATGGGAAGGCCTTCCCCTTTTAAATCTCCGTTGGCAGGCAGTAGGGG   4600
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4601 CTCTGCACATGGCTGCTCTAGGCATCTTCAAAAGAGAAACTCCCCCTCTC   4650
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4651 AGGAGGAGCTCCTCCAGCCTGCTGGATCAGAGGCGTCATCTGAGCCACAC   4700
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4701 AATTCAACAGGGCAGTCTTGCCTGCCAAGGCGAGAGCTAGAAGGAACCCC   4750
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4751 ATACCTGGGATCTGGAATCAGCCTTTTCTCTAGTAGAGACCCCGAATCTG   4800
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4801 AGTCCCCTAAAGAGCCAGCCCACATTGGCACCACACCAGCTTCAACCTCT   4850
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4851 GCACTGAAAATACCCCAAGGTCAAGTTGCTTTCCGGAGTGCAGCTGCTGC   4900
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4901 TGGTGCTGATAAAGCAGTGGTAGGAATTGTGAGCAAGATAAAGCCGGAAT   4950
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     4951 TGACATCTTCAGAAGAAAGAGCGGATAGAGACATATCCATGGTGGTGTCA   5000
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5001 GGCTTGACCCCCAAAGAAGTAATGACCGTGCAAAAGTTTGCTGAAAAATA   5050
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5051 CCGCCTCACTTTAACTGACGCAATTACTGAGGAGACTACACATGTAATTA   5100
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5101 TAAAAACAGATGCGGAGTTTGTGTGTGAGCGGACACTGAAATATTTTCTG   5150
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5151 GGCATTGCAGGAGGAAAGTGGATAGTTAGCTATTCATGGGTGGTCCGGTC   5200
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5201 TATCCAAGAAAGAAGACTTCTGAATGTGCATGAATTTGAAGTCAAAGGAG   5250
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5251 ATGTTGTGACTGGAAGAAATCACCAAGGTCCAAGGCGATCCAGAGAATCC   5300
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5301 CGGGAAAAGCTCTTCAAGGGCCTACAGGTCTATTGTTGTGAGCCCTTCAC   5350
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5351 CAACATGCCCAAAGATGAGCTGGAGAGGATGCTGCAGCTGTGTGGGGCTT   5400
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5401 CCGTGGTGAAGGAGCTTCCATCGCTCACCCATGACACAGGTGCTCATCTA   5450
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5451 GTTGTGATCGTGCAGCCAAGCGCCTGGACAGAAGACAGCAACTGCCCAGA   5500
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5501 TATTGGGCAGCTGTGCAAGGCACGTCTTGTGATGTGGGACTGGGTGTTGG   5550
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5551 ACAGTCTATCCAGCTACCGGTGTCGGGATCTGGATGCCTACCTGGTACAG   5600
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5601 AATATCACCTGTGACAGTAGTGAGCCACAAGACTCCAATGATTAATTTAA   5650
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5651 GAAATGGTCTTCCATGCCCGGGGAGCACCTCTCAGTCTTTGGTGCTTCCA   5700
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5701 CACCCTACTTACTAAGTATTTTTCATGCATCCGCCTGGAAAAACCAGCTT   5750
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5751 CTACCTATGTGAGGGTGGGTGCCTTAAAGGTTTTCTAACCAAGTCCCCCT   5800
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5801 TTGAAGTCTGTCTTGAACACAAAAAGTTTTCACCTGAGAAAGCTTTATCC   5850
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5851 CACCAATTGAGCAAGATGCTAATCTGTTGCATATCGTTCTTGGAGAGACA   5900
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5901 GTAGAGTGGCTTGGCTGATCTGAGCTGGGCATGGTGGTACTTGCCTATAA   5950
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     5951 TCACAGCATTTGGTGGAAAGAGATGGGCATGTCGTGAGTTGTATATGACT   6000
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6001 GAAGAACAAATAGCTAGTGGTCCTGATTTGTTCCTTATAAAATTGCATGT   6050
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6051 TCATAAAGGCCAAGAGTCAAGTCCTTCAAGGAGATGGCTTGAGATCTGTG   6100
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6101 GTTTGACTTAAAATCAGTGCTCCTCAAGGCTCCAGGTTTAGTAGCCAGCA   6150
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6151 CCAAACAACACCCAGAATAGGGTTTGTGCAGGACACTGAGGAAATTCAGA   6200
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6201 GCCAGATTATGTATTTGATGTGAATGTGAGGTTTTTCAAGTGCCAGTGTC   6250
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6251 AAGGAGAGCCTTCTAATTCCCCATAGCTTATGAGCAGTGTATCTGTTGTA   6300
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6301 GCAGCTCTAAGTAACCCATTCTTCTTTAAATACACGGACTCTGATATGAA   6350
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6351 TATTTCATGTCTGTACAATGATGGATTCCACCAGGAAAGGAGTTGTTGCT   6400
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6401 TTCTTTGAAGTAATTTCTTCCCTTTTGCTCCCTGTTGCTGAGGCATACTA   6450
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6451 CTTCATAAATAATTTTGCTTGCTGAAGGAAGAGAACATATTTTTCATGAA   6500
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6501 CTCATAATCTTGGACTGTTTATAGATATTGGGGGGAGTAGGTCTTCTCTG   6550
+
+NM_000518.5      627 --------------------------------------------------    627
+
+NM_009764.3     6551 GCCCCCCCCAGTATGCAAGGGCAATGGAGACCTGATTATATAAAGTATGT   6600
+
+NM_000518.5      628 -----------------------------------------------A    628
+                                                                    |
+NM_009764.3     6601 TTATAAATGCTGTGCTGTTAATACTGCAAATAAACTAAATAGCAAACA   6648
+
+
+#---------------------------------------
+#---------------------------------------
