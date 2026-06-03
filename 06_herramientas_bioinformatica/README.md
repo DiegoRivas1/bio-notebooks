@@ -1,4 +1,4 @@
-# Cuaderno 06 — Herramientas para Bioinformática
+# Cuaderno 06 Herramientas para Bioinformática
 
 Breve resumen del cuaderno y material incluido en la carpeta `06_herramientas_bioinformatica`.
 
