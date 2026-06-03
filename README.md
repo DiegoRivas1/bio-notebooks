@@ -5,19 +5,19 @@ Cada carpeta numerada es un tema: teoría explicada paso a paso + código ejecut
 
 ## Contenido
 
-| #  | Tema                                                                    | Secuencias | Estado |
-|----|-------------------------------------------------------------------------|-----------|--------|
-| 01 | [Secuencias FASTA](01_secuencias_fasta/notebook.ipynb)                  | HBB, Mitocondria, E. coli, Genes humanos | ✅ Completo |
-| 02 | [Alineamiento de Secuencias](02_alineamiento_secuencias/notebook.ipynb) | BRCA1 humano vs ratón | ✅ Completo |
-| 03 | [BLAST y Búsqueda por Similitud](03_BLAST/notebook.ipynb)               | BRCA1 humano | ✅ Completo |
-| 04 | [Alineamiento Global](04_alineamiento_global/notebook.ipynb)            | NM_000518.5, NM_009764 | ✅ Completo |
-| 05 | [Secuencias k-mers](05_secuencias_kmers/notebook.ipynb)                  | NM_000518.5, NM_009764.3, NC_000913.2, NC_003197.2 | ✅ Completo |
-| 06 | [Herramientas bioinformática](06/notebook.ipynb)                        | NM_000518.5, NM_009764.3, NC_000913.2, NC_003197.2 | ✅ Completo |
-| 07 | Filogenética y Árboles Evolutivos                                       | — | 🔜 Próximamente |
-| 08 | Análisis de Expresión Génica                                            | — | 🔜 Próximamente |
-| 09 | Estructura de Proteínas                                                 | — | 🔜 Próximamente |
-| 10 | Genómica Comparativa                                                    | — | 🔜 |
-| 11 | Ensamblaje de Genomas                                                   | — | 🔜 |
+| #  | Tema                                                                         | Secuencias | Estado |
+|----|------------------------------------------------------------------------------|-----------|--------|
+| 01 | [Secuencias FASTA](01_secuencias_fasta/notebook.ipynb)                       | HBB, Mitocondria, E. coli, Genes humanos | ✅ Completo |
+| 02 | [Alineamiento de Secuencias](02_alineamiento_secuencias/notebook.ipynb)      | BRCA1 humano vs ratón | ✅ Completo |
+| 03 | [BLAST y Búsqueda por Similitud](03_BLAST/notebook.ipynb)                    | BRCA1 humano | ✅ Completo |
+| 04 | [Alineamiento Global](04_alineamiento_global/notebook.ipynb)                 | NM_000518.5, NM_009764 | ✅ Completo |
+| 05 | [Secuencias k-mers](05_secuencias_kmers/notebook.ipynb)                      | NM_000518.5, NM_009764.3, NC_000913.2, NC_003197.2 | ✅ Completo |
+| 06 | [Herramientas bioinformática](06_herramientas_bioinformatica/notebook.ipynb) | NM_000518.5, NM_009764.3, NC_000913.2, NC_003197.2 | ✅ Completo |
+| 07 | Filogenética y Árboles Evolutivos                                            | — | 🔜 Próximamente |
+| 08 | Análisis de Expresión Génica                                                 | — | 🔜 Próximamente |
+| 09 | Estructura de Proteínas                                                      | — | 🔜 Próximamente |
+| 10 | Genómica Comparativa                                                         | — | 🔜 |
+| 11 | Ensamblaje de Genomas                                                        | — | 🔜 |
 
 ## Requisitos
 
