@@ -163,7 +163,7 @@ comunes = set(kmers_seq1.keys()) & set(kmers_seq2.keys())
 
 ```bash
 cd D:\TRABAJOS 2025B\GITHUB\bio-notebooks\05_secuencias_kmers
-jupyter notebook notebook.ipynb
+jupyter notebook notebook_back.ipynb
 ```
 
 Ejecuta TODAS las celdas en orden. El benchmarking tomará pocos segundos.

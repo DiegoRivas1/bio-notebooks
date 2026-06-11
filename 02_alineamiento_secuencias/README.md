@@ -27,7 +27,7 @@ También puedes descargarlos automáticamente con la celda de Biopython del note
 
 ```bash
 pip install numpy matplotlib biopython
-jupyter notebook notebook.ipynb
+jupyter notebook notebook_back.ipynb
 ```
 
 ## Estructura

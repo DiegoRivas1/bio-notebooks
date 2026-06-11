@@ -38,7 +38,7 @@ Opcionalmente coloca en `data/`:
 
 ```bash
 pip install numpy matplotlib
-jupyter notebook notebook.ipynb
+jupyter notebook notebook_back.ipynb
 ```
 
 ## Estructura

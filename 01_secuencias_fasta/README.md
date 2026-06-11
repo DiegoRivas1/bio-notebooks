@@ -22,5 +22,5 @@ Descarga los archivos de NCBI y colócalos en la carpeta `data/`:
 ## Ejecutar
 
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook notebook_back.ipynb
 ```

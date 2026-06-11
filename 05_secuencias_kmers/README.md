@@ -50,7 +50,7 @@ Si no los encuentra igual el notebook tiene las funciones apra descargar los arc
 
 ```bash
 pip install biopython matplotlib numpy wordcloud
-jupyter notebook notebook.ipynb
+jupyter notebook notebook_back.ipynb
 ```
 
 ## Estructura

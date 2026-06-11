@@ -25,7 +25,7 @@ para no repetir la búsqueda.
 
 ```bash
 pip install biopython pandas matplotlib
-jupyter notebook notebook.ipynb
+jupyter notebook notebook_back.ipynb
 ```
 
 ## Estructura
