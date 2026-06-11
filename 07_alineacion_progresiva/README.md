@@ -60,17 +60,17 @@ El proceso tiene un **empate triple** en el Paso 2 (distancia 5.00 entre S2–S3
 | **Teoría (PDF)** | S1+S5→S6 | S6+S4→S7 | S2+S3→S8 | S7+S8 |
 | **Nuestro código** | S1+S5→G1 | S2+S3→G2 | S4+G1→G3 | G2+G3 |
 
-Ambos caminos son **igualmente válidos** por UPGMA — el empate en distancia 5.00 no tiene resolución única. Lo relevante es que la **matriz de distancias final** y la **estructura del árbol** (grupos formados) son equivalentes.
+Ambos caminos son **igualmente válidos** por UPGMA, el empate en distancia 5.00 no tiene resolución única. Lo relevante es que la **matriz de distancias final** y la **estructura del árbol** (grupos formados) son equivalentes.
 
 ### Alineamientos intermedios verificados
 
-**Paso 1 — S1 + S5** (coincide con la teoría):
+**Paso 1, S1 + S5** (coincide con la teoría):
 ```
 S1:  XATTTAXCGCCT
 S5:  AATTTACCGCCT
 ```
 
-**Paso 2 (nuestro código) — S2 + S3** (también mostrado en la teoría):
+**Paso 2 (nuestro código), S2 + S3** (también mostrado en la teoría):
 ```
 S2:  TTAAGCCAXT
 S3:  TTAATTAACC
@@ -78,7 +78,7 @@ S3:  TTAATTAACC
 
 ### Resultado final
 
-El código produce un MSA válido con todas las secuencias de la misma longitud, con las mismas regiones conservadas que la solución de referencia. El MSA progresivo no garantiza unicidad — distintos desempates producen alineamientos diferentes pero igualmente óptimos en puntuación SP.
+El código produce un MSA válido con todas las secuencias de la misma longitud, con las mismas regiones conservadas que la solución de referencia. El MSA progresivo no garantiza unicidad, distintos desempates producen alineamientos diferentes pero igualmente óptimos en puntuación SP.
 
 ## Símbolo neutro X
 
@@ -111,4 +111,4 @@ biopython
 
 ## Ejecución
 
-Abrir `notebook.ipynb` en Jupyter y ejecutar todas las celdas en orden. La celda de descarga de NCBI requiere conexión a internet; las secuencias se cachean en `data/`.
+Abrimos `notebook.ipynb` en Jupyter y ejecutamos todas las celdas en orden. La celda de descarga de NCBI requiere conexión a internet; las secuencias se cachean en `data/`.
