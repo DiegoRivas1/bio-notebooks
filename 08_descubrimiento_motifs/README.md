@@ -100,7 +100,7 @@ El k-mer `TACGATGAC` (k=9) aparece en **todas las secuencias en la misma posici�
 | Posiciones 100% conservadas | 9 / 9 |
 | Score SP | 0 (perfectamente conservado) |
 
-El motif es **perfectamente conservado** en las 10 secuencias — sin ninguna
+El motif es **perfectamente conservado** en las 10 secuencias, sin ninguna
 mutación puntual. El Score SP = 0 confirma conservación total bajo el modelo unitario.
 
 ## Verificación del ejemplo de la teoría
@@ -116,13 +116,68 @@ Con S1/S2/S3, k=1 y suavizado de Laplace:
 Todas las métricas confirman que **S1 y S3 son los vecinos más próximos**,
 coincidiendo exactamente con los valores de la teoría.
 
+## Resultados Ejercicio 10 (Anexo 1)
+
+### Secuencias
+
+8 secuencias de 160–164 nt proporcionadas en el enunciado del laboratorio.
+
+### K-mers candidatos
+
+| k | Candidato principal | #secuencias | Nota |
+|---|---------------------|-------------|------|
+| 7 | `CGTAGCT` | 8/8 | Múltiples empatados (estructura repetitiva) |
+| 8 | `CGTAGCTA` | 8/8 | Múltiples empatados |
+| 9 | `CGTAGCTAG` | 8/8 | Candidato definitivo |
+
+A diferencia del Ejercicio 1, con k=7 y k=8 hay varios k-mers empatados con
+8/8 debido a la naturaleza repetitiva de las secuencias (unidad `CGTAGCT`
+intercalada con `ATCGATCG`).
+
+### Localización
+
+| Secuencia | Posición (0-based) | Región |
+|-----------|-------------------|--------|
+| S1 | 9 | `CGTAGCTAG` |
+| S2 | 16 | `CGTAGCTAG` |
+| S3 | 0 | `CGTAGCTAG` |
+| S4 | 2 | `CGTAGCTAG` |
+| S5 | 23 | `CGTAGCTAG` |
+| S6 | 12 | `CGTAGCTAG` |
+| S7 | 8 | `CGTAGCTAG` |
+| S8 | 13 | `CGTAGCTAG` |
+
+Las posiciones son **variables** (0–23), a diferencia del Ejercicio 1 donde
+el motif siempre aparece en la posición 4.
+
+### Reporte del motif
+
+| Propiedad | Valor |
+|-----------|-------|
+| Secuencia consenso | `CGTAGCTAG` |
+| Longitud | 9 nt |
+| Posición | Variable (0–23) |
+| Secuencias con motif | 8 / 8 (100%) |
+| Conservación media | 100.0% |
+| Posiciones 100% conservadas | 9 / 9 |
+| Score SP | 0 |
+
+### Comparación con Ejercicio 1
+
+| | Ejercicio 1 | Anexo 1 |
+|--|-------------|---------|
+| Motif | `TACGATGAC` | `CGTAGCTAG` |
+| Posición | Fija (índice 4) | Variable (0–23) |
+| Tipo | Posible sitio funcional | Repetición en tándem |
+| Conservación | 100% | 100% |
+
 ## Nota sobre Laplace
 
 Las frecuencias crudas se muestran **sin** el +1; el suavizado de Laplace
 se aplica solo al calcular las probabilidades para evitar divisiones por cero:
 
 ```
-f(A) en S1 = 4   →   p(A) = (4+1)/22 = 0.2273
+f(A) en S1 = 4   ->   p(A) = (4+1)/22 = 0.2273
 ```
 
 ## Dependencias
@@ -133,5 +188,5 @@ numpy  pandas  matplotlib  biopython
 
 ## Ejecución
 
-Abrir `notebook_lab08.ipynb` en Jupyter y ejecutar todas las celdas en orden.
+Abrir `notebook.ipynb` en Jupyter y ejecutar todas las celdas en orden.
 Las secuencias del Anexo 1 se descargan de NCBI y se cachean en `data/`.
