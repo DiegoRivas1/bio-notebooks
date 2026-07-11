@@ -15,8 +15,8 @@ Cada carpeta numerada es un tema: teoría explicada paso a paso + código ejecut
 | 06 | [Herramientas bioinformática](06_herramientas_bioinformatica/notebook.ipynb)       | NM_000518.5, NM_009764.3, NC_000913.2, NC_003197.2 | ✅ Completo |
 | 07 | [Alineación Múltiple de Secuencias (MSA)](07_alineacion_progresiva/notebook.ipynb) | E. coli, S. enterica, Sh. flexneri, K. pneumoniae, En. cloacae (250 nt) | ✅ Completo |
 | 08 | [Descubrimiento de Motifs](08_descubrimiento_motifs/notebook.ipynb)                | Secuencias sintéticas (Ej. 1) + Anexo 1 | ✅ Completo |
-| 09 | Filogenética y Árboles Evolutivos                                                  | — | 🔜 Próximamente |
-| 10 | Análisis de Expresión Génica                                                       | — | 🔜 Próximamente |
+| 09 | [Ensamblaje (Grafo de De Bruijn)](09_grafo_brujin/notebook.ipynb)                  | ATGCGATGAC; fragmentos (ejercicio de laboratorio) | ✅ Completo |
+| 10 | [Filogenia (Neighbor Joining)](10_neighbor_joining/notebook.ipynb)                | COX1 (7 especies) | ✅ Completo |
 | 11 | Estructura de Proteínas                                                            | — | 🔜 Próximamente |
 | 12 | Genómica Comparativa                                                               | — | 🔜 |
 | 13 | Ensamblaje de Genomas                                                              | — | 🔜 |
